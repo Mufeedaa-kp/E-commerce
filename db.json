@@ -1,0 +1,1451 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Mufi",
+      "email": "mufi@gmail.com",
+      "password": "123456",
+      "role": "admin",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [
+        {
+          "id": 1775278140028,
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "image": "/images/teether.jpg",
+          "quantity": 1
+        }
+      ],
+      "orders": [],
+      "wishlist": [
+        {
+          "id": "2",
+          "name": "Organic Baby Blanket",
+          "price": 19.99,
+          "description": "Soft organic cotton blanket.",
+          "image": "/images/babyblanket.jpg",
+          "rating": 4,
+          "category": "Blankets",
+          "stock": 30,
+          "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1d72",
+      "name": "shenza",
+      "email": "shenza@gmail.com",
+      "password": "0987654",
+      "isActive": true,
+      "cart": [],
+      "orders": [
+        {
+          "id": "1771312990844",
+          "items": [
+            {
+              "id": 1771312319675,
+              "productId": "1",
+              "name": "Baby Bottle",
+              "price": 9.99,
+              "image": "/images/babybottle.jpg",
+              "quantity": 1
+            }
+          ],
+          "subtotal": 9.99,
+          "shipping": 10,
+          "tax": 0.49950000000000006,
+          "total": 20.489500000000003,
+          "shippingAddress": "thottathil(h), 673538 ,calicut university ",
+          "phone": "9878654520",
+          "date": "2026-02-17",
+          "status": "Processing"
+        },
+        {
+          "id": "1771320308187",
+          "items": [
+            {
+              "id": 1771320272895,
+              "productId": "2",
+              "name": "Organic Baby Blanket",
+              "price": 19.99,
+              "image": "/images/babyblanket.jpg",
+              "quantity": 1
+            }
+          ],
+          "subtotal": 19.99,
+          "shipping": 10,
+          "tax": 0.9994999999999999,
+          "total": 30.9895,
+          "shippingAddress": "agvcde hom,987600,",
+          "phone": "9877566951",
+          "date": "2026-02-17",
+          "status": "Processing"
+        },
+        {
+          "id": "1771320427576",
+          "items": [
+            {
+              "id": 1771320357993,
+              "productId": "3",
+              "name": "Baby Romper",
+              "price": 14.99,
+              "image": "/images/babyromper.jpg",
+              "quantity": 2
+            }
+          ],
+          "subtotal": 29.98,
+          "shipping": 10,
+          "tax": 1.499,
+          "total": 41.479000000000006,
+          "shippingAddress": "kummali panayappuram [H] ,near hajiyar valavu,673634",
+          "phone": "7736536163",
+          "date": "2026-02-17",
+          "status": "Processing"
+        },
+        {
+          "id": "1771320630202",
+          "items": [
+            {
+              "id": 1771320452632,
+              "name": "Organic Baby Blanket",
+              "price": 19.99,
+              "quantity": 1
+            },
+            {
+              "id": 1771320522835,
+              "productId": "2",
+              "name": "Organic Baby Blanket",
+              "price": 19.99,
+              "image": "/images/babyblanket.jpg",
+              "quantity": 1
+            },
+            {
+              "id": 1771320525121,
+              "productId": "3",
+              "name": "Baby Romper",
+              "price": 14.99,
+              "image": "/images/babyromper.jpg",
+              "quantity": 1
+            },
+            {
+              "id": 1771320526464,
+              "productId": "4",
+              "name": "Diaper Pack",
+              "price": 24.99,
+              "image": "/images/diaper.jpg",
+              "quantity": 1
+            }
+          ],
+          "subtotal": 79.96,
+          "shipping": 10,
+          "tax": 3.9979999999999998,
+          "total": 93.958,
+          "shippingAddress": "kummali panayappuram[H] ,calicut university ,673635",
+          "phone": "3352698741",
+          "date": "2026-02-17",
+          "status": "Processing"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "description": "Safe and soft teething toy.",
+          "image": "/images/teether.jpg",
+          "rating": 5,
+          "category": "Teethers",
+          "stock": 100,
+          "variants": [
+            "Ring",
+            "Animal Shape",
+            "Fruit Shape"
+          ],
+          "sizes": [
+            "Small Ring",
+            "Large Ring"
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Baby Romper",
+          "price": 14.99,
+          "description": "Comfortable cotton romper.",
+          "image": "/images/babyromper.jpg",
+          "rating": 5,
+          "category": "Clothing",
+          "stock": 40,
+          "sizes": [
+            "Newborn",
+            "0-3 months",
+            "3-6 months"
+          ]
+        },
+        {
+          "id": "11",
+          "name": "baby shampoo",
+          "price": 99.99,
+          "description": "shampoo for baby.",
+          "image": "https://i.pinimg.com/1200x/61/87/1b/61871b22cd4dc7864a3114525a2cf279.jpg",
+          "rating": 4,
+          "category": "Skincare",
+          "stock": 30,
+          "sizes": [
+            "84g",
+            "120g"
+          ]
+        }
+      ],
+      "isBlocked": false,
+      "phone": "98765432",
+      "role": "user"
+    },
+    {
+      "id": "b3c3",
+      "name": "farsana",
+      "email": "farsana@gmail.com",
+      "password": "11223344",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "b528",
+      "name": "shiba",
+      "email": "shiba@gmail.com",
+      "password": "998877",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "cf04",
+      "name": "Mufeedh",
+      "email": "Mufeeda@gmail.com",
+      "password": "99887766",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [
+        {
+          "id": 1772170654990,
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "image": "/images/teether.jpg",
+          "quantity": 1
+        },
+        {
+          "id": 1772170688565,
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 19.99,
+          "image": "/images/babyblanket.jpg",
+          "quantity": 2
+        },
+        {
+          "id": 1772262451449,
+          "productId": "3",
+          "name": "Baby Romper",
+          "price": 14.99,
+          "image": "/images/babyromper.jpg",
+          "quantity": 1
+        }
+      ],
+      "wishlist": []
+    },
+    {
+      "id": "e285",
+      "name": "Diya",
+      "email": "diya@gmail.com",
+      "password": "111222",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [
+        {
+          "id": 1772170873019,
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "image": "/images/teether.jpg",
+          "quantity": 2
+        },
+        {
+          "id": 1772260740657,
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 19.99,
+          "image": "/images/babyblanket.jpg",
+          "quantity": 10
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "description": "Safe and soft teething toy.",
+          "image": "/images/teether.jpg",
+          "rating": 5,
+          "category": "Teethers",
+          "stock": 100,
+          "variants": [
+            "Ring",
+            "Animal Shape",
+            "Fruit Shape"
+          ],
+          "sizes": [
+            "Small Ring",
+            "Large Ring"
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Organic Baby Blanket",
+          "price": 19.99,
+          "description": "Soft organic cotton blanket.",
+          "image": "/images/babyblanket.jpg",
+          "rating": 4,
+          "category": "Blankets",
+          "stock": 30,
+          "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e85e",
+      "name": "nihala",
+      "email": "nihala@gmail.com",
+      "password": "667788",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "7722",
+      "name": "athila",
+      "email": "athila@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [],
+      "wishlist": []
+    },
+    {
+      "id": "c894",
+      "name": "safa",
+      "email": "safa@gmail.com",
+      "password": "000000",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [
+        {
+          "id": 1772535091841,
+          "productId": "10",
+          "name": "Organic Cotton Shorts",
+          "price": 20.99,
+          "image": "/images/shorts.jpg",
+          "quantity": 1
+        }
+      ],
+      "wishlist": []
+    },
+    {
+      "id": "586d",
+      "name": "mirfa",
+      "email": "mirfa@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [],
+      "wishlist": [
+        {
+          "id": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "description": "Safe and soft teething toy.",
+          "image": "/images/teether.jpg",
+          "rating": 5,
+          "category": "Teethers",
+          "stock": 100,
+          "variants": [
+            "Ring",
+            "Animal Shape",
+            "Fruit Shape"
+          ],
+          "sizes": [
+            "Small Ring",
+            "Large Ring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecd0",
+      "name": "inza",
+      "email": "inza@gmail.com",
+      "password": "september29",
+      "role": "user",
+      "isBlocked": false,
+      "isActive": true,
+      "cart": [],
+      "wishlist": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Clothing"
+    },
+    {
+      "id": "3",
+      "name": "Diapering"
+    },
+    {
+      "id": "4",
+      "name": "Teethers"
+    },
+    {
+      "id": "5",
+      "name": "Blankets"
+    },
+    {
+      "id": "6",
+      "name": "Furniture"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "f147",
+      "name": "mufeeda",
+      "email": "shenza@gmail.com",
+      "message": "hi,can you tell us about your product",
+      "date": "2026-02-26T09:06:05.422Z",
+      "reply": {
+        "text": "our product is organic,budget friendly and etc..i hope you get satisfied with our products",
+        "repliedAt": "2026-05-22T07:03:16.570Z"
+      }
+    },
+    {
+      "id": "f303",
+      "name": "hai",
+      "email": "hai@gmail.com",
+      "message": "hai",
+      "date": "2026-03-03T11:38:58.494Z"
+    },
+    {
+      "id": "caf0",
+      "name": "shahana",
+      "email": "mufeedhamufi555@gmail.com",
+      "message": "hi",
+      "date": "2026-04-04T04:52:51.483Z"
+    },
+    {
+      "id": "329b",
+      "name": "shahana",
+      "email": "mufeedhamufi555@gmail.com",
+      "message": "hi",
+      "date": "2026-04-04T04:56:09.848Z"
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "ff5f",
+      "email": "shiba@gmail.com",
+      "date": "2026-02-27T06:29:43.535Z"
+    },
+    {
+      "id": "5fc1",
+      "email": "mufeed@gmail.com",
+      "date": "2026-02-27T06:30:03.045Z"
+    },
+    {
+      "id": "39d1",
+      "email": "farsana@gmail.com",
+      "date": "2026-02-28T05:36:58.234Z"
+    },
+    {
+      "id": "92bb",
+      "email": "nihala@gmail.com",
+      "date": "2026-02-28T05:37:16.469Z"
+    },
+    {
+      "id": "3c13",
+      "email": "safa@gmail.com",
+      "date": "2026-03-03T11:38:37.770Z"
+    },
+    {
+      "id": "e859",
+      "email": "mufeedhamufi555@gmail.com",
+      "date": "2026-04-04T04:51:53.894Z"
+    },
+    {
+      "id": "0d36",
+      "email": "mufi@gmail.com",
+      "date": "2026-05-22T05:33:11.357Z"
+    },
+    {
+      "id": "85b8",
+      "email": "mufeedhamufi555@gmail.com",
+      "date": "2026-05-22T08:01:06.408Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "name": "Organic Baby Blanket",
+      "price": 20.99,
+      "description": "Soft organic cotton blanket.",
+      "image": "/images/babyblanket.jpg",
+      "rating": 4,
+      "category": "Blankets",
+      "stock": 30,
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Baby Romper",
+      "price": 14.99,
+      "description": "Comfortable cotton romper.",
+      "image": "/images/babyromper.jpg",
+      "rating": 5,
+      "category": "Clothing",
+      "stock": 40,
+      "sizes": [
+        "Newborn",
+        "0-3 months",
+        "3-6 months"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Diaper Pack",
+      "price": 24.99,
+      "description": "Super absorbent diaper pack.",
+      "image": "/images/diaper.jpg",
+      "rating": 4,
+      "category": "Diapering",
+      "stock": 60,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Silicone Teether",
+      "price": 6.99,
+      "description": "Safe and soft teething toy.",
+      "image": "/images/teether.jpg",
+      "rating": 5,
+      "category": "Teethers",
+      "stock": 100,
+      "variants": [
+        "Ring",
+        "Animal Shape",
+        "Fruit Shape"
+      ],
+      "sizes": [
+        "Small Ring",
+        "Large Ring"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Baby Crib",
+      "price": 199.99,
+      "description": "Strong wooden baby crib.",
+      "image": "/images/crib.jpg",
+      "rating": 4,
+      "category": "Furniture",
+      "stock": 10,
+      "sizes": [
+        "Mini",
+        "Standard"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Organic Baby Socks",
+      "price": 10.09,
+      "description": "comfy socks for baby.",
+      "image": "/images/socks.jpg",
+      "rating": 4,
+      "category": "Clothing",
+      "stock": 50,
+      "sizes": [
+        "free size",
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Organic Cotton Beanie",
+      "price": 20.99,
+      "description": "comfortable beanies for baby.",
+      "image": "/images/beany.jpg",
+      "rating": 4,
+      "category": "Clothing",
+      "stock": 30,
+      "sizes": [
+        "free size",
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Organic Cotton Leggings",
+      "price": 20.99,
+      "description": "comfortable leggins for baby.",
+      "image": "/images/leggins.jpg",
+      "rating": 4,
+      "category": "Clothing",
+      "stock": 30,
+      "sizes": [
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Organic Cotton Shorts",
+      "price": 20.99,
+      "description": "shorts for baby.",
+      "image": "/images/shorts.jpg",
+      "rating": 4,
+      "category": "Clothing",
+      "stock": 30,
+      "sizes": [
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "baby shampoo",
+      "price": 99.99,
+      "description": "shampoo for baby.",
+      "image": "https://i.pinimg.com/1200x/61/87/1b/61871b22cd4dc7864a3114525a2cf279.jpg",
+      "rating": 4,
+      "category": "Skincare",
+      "stock": 30,
+      "sizes": [
+        "84g",
+        "120g"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "baby massage oil",
+      "price": 99.99,
+      "description": "massage oil for baby for baby.",
+      "image": "https://i.pinimg.com/1200x/df/9b/c0/df9bc068f5b1a3a92c4ce2a057560d23.jpg",
+      "rating": 4,
+      "category": "Skincare",
+      "stock": 30,
+      "sizes": [
+        "84g",
+        "120g"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Diaper Rash Cream",
+      "price": 25.99,
+      "description": "diaper rash cream for baby.",
+      "image": "/images/rash.jpg",
+      "rating": 4,
+      "category": "Skincare",
+      "stock": 30,
+      "sizes": [
+        "84g",
+        "50g"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Baby Wipes",
+      "price": 25.99,
+      "description": "baby wipes .",
+      "image": "https://i.pinimg.com/1200x/9e/00/b2/9e00b25ef415743525f0f9542a0f3825.jpg",
+      "rating": 4,
+      "category": "Skincare",
+      "stock": 30,
+      "sizes": [
+        "45wipes",
+        "72wipes",
+        "100wipes"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Baby Powder(talc-free)",
+      "price": 25.99,
+      "description": "baby powder.",
+      "image": "https://i.pinimg.com/736x/3d/e0/06/3de006b6aedee4f140cec8252636f0a2.jpg",
+      "rating": 4,
+      "category": "Skincare",
+      "stock": 30,
+      "sizes": [
+        "44.8ml",
+        "88.7ml",
+        "120ml"
+      ]
+    },
+    {
+      "id": "4f9c",
+      "name": "fgh",
+      "price": 20.99,
+      "image": "",
+      "category": "clothing"
+    }
+  ],
+  "orders": [
+    {
+      "id": "981e",
+      "customer": {
+        "name": "shenza",
+        "email": "shenza@gmail.com",
+        "phone": "9876543456"
+      },
+      "shippingAddress": "nbvyujmnbvcderyuj",
+      "items": [
+        {
+          "name": "Baby Romper",
+          "price": 14.99,
+          "quantity": 3
+        },
+        {
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "name": "Baby Bottle",
+          "price": 9.99,
+          "quantity": 4
+        }
+      ],
+      "subtotal": 91.92,
+      "shipping": 10,
+      "tax": 4.596,
+      "total": 106.516,
+      "status": "Delivered",
+      "date": "2026-02-26T05:31:48.277Z"
+    },
+    {
+      "id": "0180",
+      "customer": {
+        "name": "shenza",
+        "email": "shenza@gmail.com",
+        "phone": "0987654567"
+      },
+      "shippingAddress": ";OIGHASHODG;R.,iowefn,Jefwu",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Baby Romper",
+          "price": 14.99,
+          "quantity": 3
+        },
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Baby Bottle",
+          "price": 9.99,
+          "quantity": 4
+        }
+      ],
+      "subtotal": 91.92,
+      "shipping": 10,
+      "tax": 4.596,
+      "total": 97.32400000000001,
+      "status": "Delivered",
+      "date": "2026-02-26T06:25:13.760Z"
+    },
+    {
+      "id": "057d",
+      "userId": "1d72",
+      "customer": {
+        "name": "shenza",
+        "email": "shenza@gmail.com",
+        "phone": "8765476599"
+      },
+      "shippingAddress": "ertyuiolksdrtyuk",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Baby Romper",
+          "price": 14.99,
+          "quantity": 3
+        },
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Baby Bottle",
+          "price": 9.99,
+          "quantity": 4
+        }
+      ],
+      "subtotal": 91.92,
+      "shipping": 10,
+      "tax": 4.596,
+      "total": 97.32400000000001,
+      "status": "Delivered",
+      "date": "2026-02-26T07:12:42.732Z"
+    },
+    {
+      "id": "2578",
+      "userId": "cf04",
+      "customer": {
+        "name": "Mufeedh",
+        "email": "Mufeeda@gmail.com",
+        "phone": "4567890677"
+      },
+      "shippingAddress": "asdfghjklmnbvc",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 19.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 26.979999999999997,
+      "shipping": 10,
+      "tax": 1.349,
+      "total": -11.671000000000006,
+      "status": "Delivered",
+      "date": "2026-02-27T05:39:06.054Z"
+    },
+    {
+      "id": "9a8b",
+      "userId": "e285",
+      "customer": {
+        "name": "Diya",
+        "email": "diya@gmail.com",
+        "phone": "9987654356"
+      },
+      "shippingAddress": "aerhbup,dfgok",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.99,
+      "shipping": 10,
+      "tax": 0.34950000000000003,
+      "total": 16.6405,
+      "status": "Delivered",
+      "date": "2026-02-27T05:42:12.585Z"
+    },
+    {
+      "id": "e8d6",
+      "userId": "e285",
+      "customer": {
+        "name": "Diya",
+        "email": "diya@gmail.com",
+        "phone": "9987654356"
+      },
+      "shippingAddress": "aerhbup,dfgok",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.99,
+      "shipping": 10,
+      "tax": 0.34950000000000003,
+      "total": 16.6405,
+      "status": "Delivered",
+      "date": "2026-02-27T05:42:36.715Z"
+    },
+    {
+      "id": "868a",
+      "userId": "e285",
+      "customer": {
+        "name": "Diya",
+        "email": "diya@gmail.com",
+        "phone": "9087679077"
+      },
+      "shippingAddress": "lipoutre",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.99,
+      "shipping": 10,
+      "tax": 0.34950000000000003,
+      "total": 16.6405,
+      "status": "Delivered",
+      "date": "2026-02-27T05:43:41.284Z"
+    },
+    {
+      "id": "cc13",
+      "userId": "e285",
+      "customer": {
+        "name": "Diya",
+        "email": "diya@gmail.com",
+        "phone": "8765678998"
+      },
+      "shippingAddress": "mrtyuikmnbvcdrtyujnbvcfyuikjnbvcfyujnbcfyuj",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 19.99,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 46.97,
+      "shipping": 10,
+      "tax": 2.3485,
+      "total": 54.6215,
+      "status": "Delivered",
+      "date": "2026-02-28T06:40:17.555Z"
+    },
+    {
+      "id": "8bd4",
+      "userId": "e285",
+      "customer": {
+        "name": "Diya",
+        "email": "diya@gmail.com",
+        "phone": "8765678998"
+      },
+      "shippingAddress": "mrtyuikmnbvcdrtyujnbvcfyuikjnbvcfyujnbcfyuj",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 19.99,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 46.97,
+      "shipping": 10,
+      "tax": 2.3485,
+      "total": 54.6215,
+      "status": "Delivered",
+      "date": "2026-02-28T06:49:36.038Z"
+    },
+    {
+      "id": "5890",
+      "userId": "cf04",
+      "customer": {
+        "name": "Mufeedh",
+        "email": "Mufeeda@gmail.com",
+        "phone": "9965478930"
+      },
+      "shippingAddress": "muhammed house near abc ",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "productId": "3",
+          "name": "Baby Romper",
+          "price": 14.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 61.96,
+      "shipping": 10,
+      "tax": 3.0980000000000003,
+      "total": 68.86200000000001,
+      "status": "Shipped",
+      "date": "2026-03-02T07:42:44.446Z"
+    },
+    {
+      "id": "1fa4",
+      "userId": "c894",
+      "customer": {
+        "name": "safa",
+        "email": "safa@gmail.com",
+        "phone": ""
+      },
+      "shippingAddress": "ddfghjkl;s.x xtyu",
+      "items": [
+        {
+          "productId": "10",
+          "name": "Organic Cotton Shorts",
+          "price": 20.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 20.99,
+      "shipping": 10,
+      "tax": 1.0494999999999999,
+      "total": 32.0395,
+      "status": "Shipped",
+      "date": "2026-03-03T10:51:57.227Z"
+    },
+    {
+      "id": "3a36",
+      "userId": "c894",
+      "customer": {
+        "name": "safa",
+        "email": "safa@gmail.com",
+        "phone": "23456789"
+      },
+      "shippingAddress": "ddfghjkl;s.x xtyu",
+      "items": [
+        {
+          "productId": "10",
+          "name": "Organic Cotton Shorts",
+          "price": 20.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 20.99,
+      "shipping": 10,
+      "tax": 1.0494999999999999,
+      "total": 32.0395,
+      "status": "Shipped",
+      "date": "2026-03-03T10:52:24.664Z"
+    },
+    {
+      "id": "c13b",
+      "userId": "1d72",
+      "customer": {
+        "name": "shenza",
+        "email": "shenza@gmail.com",
+        "phone": "4567890"
+      },
+      "shippingAddress": "uinkml;k",
+      "items": [
+        {
+          "productId": "7",
+          "name": "Organic Baby Socks",
+          "price": 10.09,
+          "quantity": 1
+        },
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 17.08,
+      "shipping": 10,
+      "tax": 0.854,
+      "total": 27.933999999999997,
+      "status": "Delivered",
+      "date": "2026-03-03T11:08:06.518Z"
+    },
+    {
+      "id": "f280",
+      "userId": "1d72",
+      "customer": {
+        "name": "shenza",
+        "email": "shenza@gmail.com",
+        "phone": "3456789"
+      },
+      "shippingAddress": "sdfghjkcsn",
+      "items": [
+        {
+          "productId": "7",
+          "name": "Organic Baby Socks",
+          "price": 10.09,
+          "quantity": 1
+        },
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 17.08,
+      "shipping": 10,
+      "tax": 0.854,
+      "total": 27.933999999999997,
+      "status": "Delivered",
+      "date": "2026-03-03T11:37:44.146Z"
+    },
+    {
+      "id": "2c62",
+      "userId": "1",
+      "customer": {
+        "name": "Mufi",
+        "email": "mufi@gmail.com",
+        "phone": ""
+      },
+      "shippingAddress": "",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.99,
+      "shipping": 10,
+      "tax": 0.34950000000000003,
+      "total": 17.3395,
+      "status": "Shipped",
+      "date": "2026-04-04T04:39:11.890Z"
+    },
+    {
+      "id": "7bf2",
+      "userId": "1",
+      "customer": {
+        "name": "Mufi",
+        "email": "mufi@gmail.com",
+        "phone": "0987623424"
+      },
+      "shippingAddress": "klajfdewf",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.99,
+      "shipping": 10,
+      "tax": 0.34950000000000003,
+      "total": 16.6405,
+      "status": "Shipped",
+      "date": "2026-04-04T04:49:31.456Z"
+    },
+    {
+      "id": "7963",
+      "userId": "1d72",
+      "customer": {
+        "name": "shenza",
+        "email": "shenza@gmail.com",
+        "phone": "987654456"
+      },
+      "shippingAddress": "center cityp/o",
+      "items": [
+        {
+          "productId": "7",
+          "name": "Organic Baby Socks",
+          "price": 10.09,
+          "quantity": 1
+        },
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 4
+        },
+        {
+          "productId": "11",
+          "name": "baby shampoo",
+          "price": 99.99,
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "name": "Baby Romper",
+          "price": 14.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 153.03,
+      "shipping": 0,
+      "tax": 7.6515,
+      "total": 145.3785,
+      "status": "Shipped",
+      "date": "2026-04-04T04:57:44.612Z"
+    },
+    {
+      "id": "66aa",
+      "userId": "586d",
+      "customer": {
+        "name": "mirfa",
+        "email": "mirfa@gmail.com",
+        "phone": "9345678798"
+      },
+      "shippingAddress": "calicut uniersity 239884",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 20.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 20.99,
+      "shipping": 10,
+      "tax": 1.0494999999999999,
+      "total": 29.940499999999997,
+      "status": "Shipped",
+      "date": "2026-05-22T05:38:20.101Z"
+    },
+    {
+      "id": "7e22",
+      "userId": "586d",
+      "customer": {
+        "name": "mirfa",
+        "email": "mirfa@gmail.com",
+        "phone": "3457654332"
+      },
+      "shippingAddress": "sdfghfgjhkhjtre",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 20.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 20.99,
+      "shipping": 10,
+      "tax": 1.0494999999999999,
+      "discountAmount": 2.0989999999999998,
+      "total": 29.940499999999997,
+      "status": "Shipped",
+      "date": "2026-05-22T05:55:09.586Z"
+    },
+    {
+      "id": "ca56",
+      "userId": "586d",
+      "customer": {
+        "name": "mirfa",
+        "email": "mirfa@gmail.com",
+        "phone": "trerytuiu"
+      },
+      "shippingAddress": "e6yt7u8ipkjhgb",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Baby Romper",
+          "price": 14.99,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 29.98,
+      "shipping": 10,
+      "tax": 1.499,
+      "discountAmount": 0,
+      "total": 41.479000000000006,
+      "status": "Shipped",
+      "date": "2026-05-22T05:57:31.158Z"
+    },
+    {
+      "id": "5ba8",
+      "userId": "586d",
+      "customer": {
+        "name": "mirfa",
+        "email": "mirfa@gmail.com",
+        "phone": "9876567653"
+      },
+      "shippingAddress": "ertvbyunhiojpk",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 20.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 27.979999999999997,
+      "shipping": 10,
+      "tax": 1.399,
+      "discountAmount": 2.7979999999999996,
+      "total": 36.580999999999996,
+      "status": "Shipped",
+      "date": "2026-05-22T06:02:01.690Z"
+    },
+    {
+      "id": "475f",
+      "userId": "586d",
+      "customer": {
+        "name": "mirfa",
+        "email": "mirfa@gmail.com",
+        "phone": "9765456787"
+      },
+      "shippingAddress": "cfdrt6yiol",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Organic Baby Blanket",
+          "price": 20.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 27.979999999999997,
+      "shipping": 10,
+      "tax": 1.399,
+      "discountAmount": 2.7979999999999996,
+      "total": 36.580999999999996,
+      "status": "Shipped",
+      "date": "2026-05-22T06:04:34.596Z"
+    },
+    {
+      "id": "3da8",
+      "userId": "586d",
+      "customer": {
+        "name": "mirfa",
+        "email": "mirfa@gmail.com",
+        "phone": "9876543456"
+      },
+      "shippingAddress": "ryukjfhd",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.99,
+      "shipping": 10,
+      "tax": 0.34950000000000003,
+      "discountAmount": 0.6990000000000001,
+      "total": 16.6405,
+      "status": "Shipped",
+      "date": "2026-05-22T06:05:42.107Z"
+    },
+    {
+      "id": "3883",
+      "userId": "1d72",
+      "customer": {
+        "name": "shenza",
+        "email": "shenza@gmail.com",
+        "phone": "8678654366"
+      },
+      "shippingAddress": "mnbvcxertyuio;d.,mn b",
+      "items": [
+        {
+          "productId": "7",
+          "name": "Organic Baby Socks",
+          "price": 10.09,
+          "quantity": 1
+        },
+        {
+          "productId": "5",
+          "name": "Silicone Teether",
+          "price": 6.99,
+          "quantity": 4
+        },
+        {
+          "productId": "11",
+          "name": "baby shampoo",
+          "price": 99.99,
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "name": "Baby Romper",
+          "price": 14.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 153.03,
+      "shipping": 0,
+      "tax": 7.6515,
+      "discountAmount": 50,
+      "total": 110.6815,
+      "status": "Pending",
+      "date": "2026-05-22T07:07:42.788Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": 1,
+      "userId": 1,
+      "rating": 5,
+      "comment": "Amazing quality!"
+    },
+    {
+      "id": "2",
+      "productId": 2,
+      "userId": 1,
+      "rating": 4,
+      "comment": "Very soft and comfortable."
+    }
+  ]
+}

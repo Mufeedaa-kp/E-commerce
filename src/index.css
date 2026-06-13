@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #fdf2f8;
+  --color-primary-100: #fce7f3;
+  --color-primary-200: #fbcfe8;
+  --color-primary-300: #f9a8d4;
+  --color-primary-400: #f472b6;
+  --color-primary-500: #ec4899;
+  --color-primary-600: #db2777;
+  --color-primary-700: #be185d;
+  --color-primary-800: #9d174d;
+  --color-primary-900: #831843;
+  
+  --color-baby-mint: #e0f2e6;
+  --color-baby-lavender: #e9d5ff;
+  --color-baby-peach: #ffd7b5;
+  --color-baby-blue: #dbeafe;
+  
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: linear-gradient(to bottom right, var(--color-baby-mint), white, var(--color-baby-blue));
+  min-height: 100vh;
+}
+
+@layer components {
+  .btn-primary {
+    background-color: var(--color-primary-600);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  .btn-primary:hover {
+    background-color: var(--color-primary-700);
+  }
+  
+  .btn-secondary {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  .btn-secondary:hover {
+    background-color: #d1d5db;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    outline: none;
+  }
+  .input-field:focus {
+    ring: 2px solid var(--color-primary-500);
+    border-color: transparent;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    transition: box-shadow 0.2s;
+    overflow: hidden;
+  }
+  .card:hover {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+  }
+}
